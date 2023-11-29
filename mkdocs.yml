@@ -2,6 +2,7 @@
 site_name: Testen im Makerspace Leipzig
 use_directory_urls: false
 docs_dir: ../wiki/docs
+site_dir: .
 
 # Theme inkl. Spracheinstellung
 theme:
