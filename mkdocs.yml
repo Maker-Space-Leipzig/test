@@ -1,0 +1,34 @@
+# Grundeinstellungen
+site_name: Testen im Makerspace Leipzig
+use_directory_urls: false
+
+# Theme inkl. Spracheinstellung
+theme:
+  name: material
+  language: de
+  features:
+    - navigation.sections
+    - navigation.footer
+  plugins:
+    - offline
+    - search
+
+nav:
+  - 'Home.md'
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - mdx_truly_sane_lists
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
