@@ -7,4 +7,4 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: maker-space-leipzig/publish-documentation-action
+      - uses: maker-space-leipzig/publish-documentation-action@main
